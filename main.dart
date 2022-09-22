@@ -1,5 +1,3 @@
-import 'dart:_internal';
-
 void main(List<String> args) {}
 
 // List<int> mergeTwoArrays(
