@@ -1,6 +1,55 @@
-void main(List<String> args) {
-  // print(1100 & 1001);
-}
+import 'dart:_internal';
+
+void main(List<String> args) {}
+
+// List<int> mergeTwoArrays(
+//     {required List<int> array1, required List<int> array2}) {
+//   int i = 0;
+//   int j = 0;
+
+//   int n = array1.length;
+//   int m = array1.length;
+
+//   List<int> result = [];
+
+//   while (i < n && j < m) {
+//     if (array1[i] < array2[j]) {
+//       (array1[i]);
+//       i += 1;
+//     } else {
+//       result.add(array2[j]);
+//       j += 1;
+//     }
+//   }
+
+//   while (i < n) {
+//     result.add(array1[i]);
+//     i += 1;
+//   }
+
+//   while (j < m) {
+//     result.add(array2[j]);
+//     j += 1;
+//   }
+
+//   return result;
+// }
+
+// bool isPolindrome(String word) {
+//   int low = 0;
+//   int high = word.length - 1;
+
+//   while (low < high) {
+//     if (word[low] != word[high]) {
+//       return false;
+//     }
+
+//     low++;
+//     high--;
+//   }
+
+//   return true;
+// }
 
 // bool bitwise_ConvertToBinary(int num) {
 //   int bitCount = 0;
