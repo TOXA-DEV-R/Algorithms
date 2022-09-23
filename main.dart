@@ -1,5 +1,7 @@
 void main(List<String> args) {}
 
+/*Linked List*/
+
 // List<int> mergeTwoArrays(
 //     {required List<int> array1, required List<int> array2}) {
 //   int i = 0;
@@ -8,26 +10,31 @@ void main(List<String> args) {}
 //   int n = array1.length;
 //   int m = array1.length;
 
-//   List<int> result = [];
+//   List<int> result =
+//       List<int>.filled((array1.length + array2.length), 0, growable: false);
+//   int resultCounter = 0;
 
 //   while (i < n && j < m) {
 //     if (array1[i] < array2[j]) {
-//       (array1[i]);
-//       i += 1;
+//       result[resultCounter] = array1[i];
+//       i++;
 //     } else {
-//       result.add(array2[j]);
-//       j += 1;
+//       result[resultCounter] = array2[j];
+//       j++;
 //     }
+//     resultCounter++;
 //   }
 
 //   while (i < n) {
-//     result.add(array1[i]);
-//     i += 1;
+//     result[resultCounter] = array1[i];
+//     i++;
+//     resultCounter++;
 //   }
 
 //   while (j < m) {
-//     result.add(array2[j]);
-//     j += 1;
+//     result[resultCounter] = array2[j];
+//     j++;
+//     resultCounter++;
 //   }
 
 //   return result;
